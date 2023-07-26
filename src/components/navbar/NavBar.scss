@@ -1,0 +1,67 @@
+.nav {
+  font-size: 2rem;
+  background-color: var(--color-white);
+  padding: 1.5rem 1rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color-bold);
+    margin: 0 auto;
+
+    .logo {
+      .link {
+        color: rgba(56, 62, 198, 1);
+        font-weight: 800;
+        font-size: 2.5rem;
+      }
+    }
+
+    .nav__bar {
+      //   background-color: red;
+      width: max-content;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6rem;
+        margin: 0 auto;
+      }
+
+      .nav__item {
+        .nav__link {
+          font-size: 2rem;
+          font-weight: 500;
+          color: var(--text-color-bold);
+        }
+      }
+    }
+
+    .nav__btns {
+      display: flex;
+      gap: 2rem;
+
+      .btn {
+        color: var(--color-white);
+        padding: 1.2rem 3.1rem;
+        border-radius: 1.5rem;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+        font-weight: 500;
+
+        &--login {
+          color: var(--color-text-bold);
+          border: 1.5px solid #000;
+          background-color: transparent;
+          font-weight: 500;
+        }
+
+        &--signup {
+          background: var(--color-primary);
+        }
+      }
+    }
+  }
+}
