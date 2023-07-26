@@ -3,10 +3,20 @@
   margin: 4rem 0;
   // background-color: red;
   .container {
+    position: relative;
     margin: 0 auto;
 
     &__img {
       width: 100%;
+    }
+
+    &__searchbar {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 50rem;
+
+      // margin: 0 auto;
     }
   }
 }
