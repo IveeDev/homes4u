@@ -1,0 +1,25 @@
+.form {
+  .search {
+    display: flex;
+    align-items: flex-end;
+    background-color: red;
+
+    &__input {
+      input {
+        border: none;
+        padding: 0 1.5rem;
+        height: 5rem;
+        width: 55rem;
+        outline: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+    }
+
+    &__btn {
+      img {
+        width: 5rem;
+      }
+    }
+  }
+}
