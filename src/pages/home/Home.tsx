@@ -21,12 +21,14 @@ import searchHome from "../../assets/icons/searchHome.png";
 import { NavLink } from "react-router-dom";
 import Feature from "../../components/features/Feature";
 import HomeBtn from "../../components/homeBtn/HomeBtn";
+import SearchInput from "../../components/searchInput/SearchInput";
 
 const Home = () => {
   return (
     <section className="home">
       <Banner />
 
+      {/* Explore homes */}
       <div className="explore">
         <div className="container">
           <h1 className="container__text-primary">Check Homes4u</h1>
@@ -133,9 +135,10 @@ const Home = () => {
         </div>
       </div>
 
+      {/* feature. What we offer */}
       <div className="features">
         <div className="features__container">
-          <h1 className="features__header">How can Homes4u help</h1>
+          <h1 className="section-header">How can Homes4u help</h1>
           <div className="features__grid">
             <Feature>
               <img src={agent} alt="agent" className="features__img" />
@@ -170,6 +173,16 @@ const Home = () => {
               <HomeBtn>Take a tour</HomeBtn>
             </Feature>
           </div>
+        </div>
+      </div>
+
+      {/* search by preference */}
+      <div className="search">
+        <div className="search__container">
+          <h3 className="section-header search__header">
+            Search by preference
+          </h3>
+          <SearchInput />
         </div>
       </div>
     </section>

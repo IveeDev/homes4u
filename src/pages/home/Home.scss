@@ -67,7 +67,6 @@
   }
 
   // Features
-
   .features {
     margin-top: 5rem;
     display: flex;
@@ -119,6 +118,22 @@
         &--u {
           margin-top: 1.3rem;
         }
+      }
+    }
+  }
+
+  // search by preference
+  .search {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+      margin: 0 auto;
+      text-align: center;
+
+      .search__header {
+        transform: translateY(3rem);
       }
     }
   }
