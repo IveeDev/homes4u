@@ -1,0 +1,10 @@
+.homebtn {
+  margin-top: 3rem;
+  &__link {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+  }
+}
