@@ -1,0 +1,67 @@
+.home {
+  .explore {
+    display: flex;
+    justify-content: center;
+
+    .container {
+      margin-top: -5rem;
+      width: 128rem;
+      text-align: center;
+
+      &__text-primary {
+        font-size: 3.8rem;
+        font-weight: 600;
+      }
+
+      &__paragraph {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.71);
+      }
+
+      // Container__list
+      &__list {
+        margin-top: 2rem;
+
+        ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 7rem;
+
+          li {
+            display: block;
+
+            .link {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+
+      &__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // background-color: red;
+        width: max-content;
+        gap: 1.5rem;
+        margin: 3rem auto;
+
+        .container__row {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4rem;
+
+          .img__col {
+            img {
+              width: 15rem;
+              height: 15rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
